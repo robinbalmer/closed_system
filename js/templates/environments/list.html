@@ -1,0 +1,5 @@
+<ul>
+  <% _.each(environments, function(env,b,c){ %>
+   <a href='#observe/<%= env.cid %>'><li data-id='<%= env.cid %>'><%= env.get("name") %></li></a> 
+  <% }); %>
+</ul>
