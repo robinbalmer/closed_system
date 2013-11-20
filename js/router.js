@@ -4,7 +4,8 @@ define([
   'backbone',
   'views/environments/list',
   'views/environment/observe',
-], function($, _, Backbone, EnvironmentListView, EnvironmentObserveView){
+  'behavior/environment/simulate'
+], function($, _, Backbone, EnvironmentListView, EnvironmentObserveView, Simulate){
   var AppRouter = Backbone.Router.extend({
     routes: {
 	   

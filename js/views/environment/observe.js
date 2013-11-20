@@ -56,6 +56,7 @@ define([
 		
 			environment.get('stage').set('kinetic', stage);				
 		}
+		
 		console.log('observe view rendered');
 	},
     refresh: function(){
