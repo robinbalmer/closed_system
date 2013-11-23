@@ -18,6 +18,9 @@ define([
   	
   		var environmentObserveView = new EnvironmentObserveView();
 		
+		//add Simulate functions to view
+		new Simulate(environmentObserveView);
+				
 		environmentObserveView.render(id);
 	
     }

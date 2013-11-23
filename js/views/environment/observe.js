@@ -13,8 +13,7 @@ define([
 		
 		var environment = _app.collection.getByCid(id);
 		
-		if(environment){
-			console.log(environment);
+		if(environment){			
 		
 			var $stage = $('<div id="stage">');		
 			$stage.css({
